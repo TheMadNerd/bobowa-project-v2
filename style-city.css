@@ -1,194 +1,88 @@
-.page {
-    position: absolute;
-     z-index: -2;
-}
-
 .city-upper-half {
     position: relative;
-    top: 70px;
+    z-index: 0;
     background-color: #2A468A;
-    width: 1440px;
-    height: 416px;
-    box-shadow: 0px 4px 30px 0px #00000033;
-    z-index: -1;
+    clear: both;
 }
 
-.country {
-    font-size: 14px;
-    line-height: 16.8px;
-   
+.city-left-upper-half {
+    color: #FFFFFF;
+    padding: 86px 0 90px 73px;
+    display: inline-block;
 }
 
-.flag {
-    width: 30px;
-    height: 19px;
-    position: absolute;
-    top: 25px;
-    left: 796px;
-    border-radius: 3px;
-
-}
-
-.flag-country {
-    position: absolute;
-    width: 28px;
-    height: 17px;
-    top: 26px;
-    left: 833px;
-    
-
-}
-
-.bobowa-link {
-    position: absolute;
-    width: 52px;
-    height: 17px;
-    top: 26px;
-    left: 934px;
-}
-
-.sekowa-link {
-    position: absolute;
-    width: 49px;
-    height: 17px;
-    top: 26px;
-    left: 1025px;
-
-}
-
-.stropkov-link {
-    position: absolute;
-    width: 130px;
-    height: 17px;
-    top: 26px;
-    left: 1114px;
-}
-
-.nizna-link {
-    position: absolute;
-    width: 97px;
-    height: 17px;
-    top: 26px;
-    left: 1276px;
-
-}
-
-.city {
-    
-    color: #fff
-}
-
-.city-name {
-    position: absolute;
-    top: 86px;
-    left: 73px;
-
-    width: 641px;
-    height: 72px;
-
-    font-weight: 700;
+.city-name {   
     font-size: 60px;
-    line-height: 72px;
+    font-weight: 700;
 }
 
 .coop {
-    position: absolute;
-    left: 77px;
-    top: 174px;
-
-    width: 949px;
-    height: 26px;
-
     font-size: 30px;
     font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-
+    padding: 16px 0 0 4px;
 }
 
-.city-links {
-    position: absolute;
-    
-    left: 77px;
-    top: 230px;
-
-    width: 949px;
-    height: 26px;
-    
+.city-links {  
     font-size: 16px;
     font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-
+    padding: 30px 0 0 4px;
 }
 
 .city-links a {
+    color: #FFFFFF;
     text-decoration: none;
-    color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .border {
-    position: absolute;
-    width: 200px;
-    height: 164px;
-    top: 162px;
-    left: 1163px;
-    border-radius: 10px;
-    background-color: #fff;
 
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+    float: right;
+    margin: 92px 77px 90px 0;
+   
 }
 
 .herb {
-    position: relative;
-    width: 81.31139373779297px;
-    height: 94.49284362792969px;
-    top: 32px;
-    left: 60px;
-
-
+    width: 81.311px;
+    height: 94.493px;
+    padding: 32px 60px 37.5px 60px;
 }
 
-.lower-city-name {
-    position: absolute;
-    width: 641px;
-    height: 72px;
-    top: 585px;
-    left: 238px;
+.city-lower-half {
+    padding-top: 169px;
+}
 
-    
+.city-lower-half-text {
+    padding: 0 0 0 238px;
+    display: inline-block;
+    width: 27%;
+}
+
+.city-lower-half-text-title {
+    color: #2A468A;
     font-size: 50px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0em;
-    text-align: left;
-
-    color: #2A468A;
+    padding-bottom: 8px;
 }
 
-.lower-city-extra {
-    position: absolute;
-    width: 386px;
-    height: 131px;
-    top: 665px;
-    left: 238px;
-
-    
+.city-lower-half-text-extra {
+    color: #000;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
 }
 
 .road {
-    position: absolute;
-    width: 685.0543212890625px;
-    height: 789.54638671875px;
-    top: 585px;
-    left: 624px;
+    width: 47%;
+    float: right;
+    padding: 0 131px 121px 0;
+    height: 42%;
 
+}
+
+.content {
+    margin-bottom: 84px;
 }
