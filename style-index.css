@@ -134,6 +134,7 @@
 	font-size: 20px;
 	font-weight: 700;
 	padding-top: 37.5px;
+	display: grid;
 }
 
 .about {
