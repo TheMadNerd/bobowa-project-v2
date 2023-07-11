@@ -126,4 +126,11 @@
         padding: 5%;
 
     }
+
+    .city-left-upper-half {
+        padding: 0;
+        display: block;
+        text-align: center;
+        padding: 10% 5% 10% 5%;
+    }
 }
