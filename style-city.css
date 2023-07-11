@@ -5,6 +5,8 @@
     clear: both;
 }
 
+
+
 .menu {
     overflow: hidden;
 }
@@ -62,7 +64,7 @@
 .city-lower-half-text {
     padding: 0 0 0 238px;
     display: inline-block;
-    width: 27%;
+    width: 40%;
 }
 
 .city-lower-half-text-title {
@@ -89,4 +91,39 @@
 
 .content {
     margin-bottom: 84px;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        overflow: visible;
+    }
+
+    .city-upper-half {
+        clear: none;
+        padding-bottom: 10%;
+    }
+
+    .border {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        float: none;
+    }
+    
+    .city-lower-half {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .city-lower-half-text {
+        padding: 0;
+        width: 100%;
+    }
+
+    .road {
+        float: none;
+        width: 50%;
+        padding: 5%;
+
+    }
 }
