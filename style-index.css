@@ -1,6 +1,11 @@
 * {
 	font-family: 'Lato';
 	box-sizing: border-box;
+	
+}
+
+.page {
+	overflow: hidden;
 }
 
 
@@ -164,6 +169,7 @@
 	width: 90%;
 	margin: auto;
 	clear: both;
+	margin-bottom: 10%;
 }
 
 .row {
@@ -229,6 +235,43 @@
 	.menu-right {
 	  display: none;
 	}
+
+	.cities {
+		display: grid;
+	}
+
+	.about {
+		padding: 5% 10% 20% 10%;
+    	text-align: center;
+	}
+	.about-extra {
+		width: 100%;
+		padding-bottom: 5%;
+	}
+
+	.picture {
+		width: 75%;
+	}
+
+	.row-links {
+		padding-left: 20px;
+		display: inline-block;
+
+	}
+
+	.row {
+		width: 100%;
+	}
+
+	.logos {
+		width: 75%;
+		padding: 0;
+	}
+	
+	.copywrite {
+		text-align: center;
+		padding: 0;
+	}
   }
   
   @media screen and (min-width: 901px) {
@@ -262,6 +305,7 @@
 		border-radius: 5px;
 		transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
       opacity 0.3s ease-in-out;
+	  
 
   }
 
@@ -288,10 +332,11 @@
  	padding: 30px 70px;
 	 margin-top: 70px;
   	position: absolute;
-  	right: -100vw;
+  	right: -105vw;
   	box-sizing: border-box;
   	transition: right 0.3s ease-in-out;
 	text-align: center;
+	
 
   
   }
