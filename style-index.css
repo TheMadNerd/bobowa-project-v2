@@ -15,7 +15,6 @@
 	background: #304585;
 	box-shadow: 0px 4px 30px 0px #00000033;
 	color: #ffffff;
-	height: 70px;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -24,6 +23,7 @@
 .menu-left {
 	padding: 14px 0 17px 16px;
 	display: inline-block;
+	width: 65%;
 }
 
 .menu-int {
@@ -233,6 +233,10 @@
 }
 
 @media screen and (max-width: 900px) {
+
+	.upper-half {
+		padding-bottom: 20%;
+	}
 	.menu-right {
 	  display: none;
 	}
@@ -242,8 +246,12 @@
 	}
 
 	.about {
-		padding: 5% 10% 20% 10%;
+		padding: 10% 10% 20% 10%;
     	text-align: center;
+	}
+
+	.about-title {
+		font-size: 30px;
 	}
 	.about-extra {
 		width: 100%;
@@ -273,7 +281,27 @@
 		text-align: center;
 		padding: 0;
 	}
+
+	.upper-half {
+		background: #304585 ;
+	}
+
+	.headline {
+		font-size: 40px;
+		font-weight: 700;
+		padding-left: 0;
+		padding-bottom: 16px;
+		text-align: center;
+	}
+
+	.headline-extra {
+		font-size: 20px;
+		font-weight: 700;
+		padding-left: 0;
+		text-align: center;
+		padding-bottom: 25%;
   }
+}
   
   @media screen and (min-width: 901px) {
 	.mobile {
@@ -283,6 +311,8 @@
 	.nav-bar {
 		display: none;
 	}
+	
+	
   }
 
   .mobile {
