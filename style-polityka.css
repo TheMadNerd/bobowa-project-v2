@@ -1,0 +1,14 @@
+.city-lower-half  {
+   padding-top: 5%;
+   padding-bottom: 5%;
+
+}
+
+.city-lower-half p {
+    margin: auto;
+    padding: 2%;
+    font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+    text-align: left;
+}
